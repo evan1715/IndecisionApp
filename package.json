@@ -5,11 +5,13 @@
   "author": "Evan",
   "license": "ISC",
   "scripts": {
-    "start": "node server.js",
+    "heroku-postbuild": "npm run build:prod",
+    "start": "node server/server.js",
     "build": "webpack",
     "dev": "webpack serve"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-modal": "^3.12.1",
