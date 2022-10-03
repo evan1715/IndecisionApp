@@ -1,2 +1,4 @@
 # IndecisionApp
 This app was created while I was initially learning React, SCSS, and Webpack. Using props and class components in React, the app will randomize a to-do list for a user to do. One would add multiple things to the list of things to do, and if they're indecisive on what to do, just simply press the 'What should I do?' button. The SCSS uses an organized file structure with base & settings, and components in another folder. The styling uses BEM (Block Element Modifier) standard for formatting and organizing CSS. Webpack was also learned and used during this project. If you've got some things to do, but don't know where to start, go ahead and try it out!
+
+This app has now be integrated into MyWebsite for deployment. The original source is still separated. However, if you wish to view its integration, then view MyWebsite's source code.
